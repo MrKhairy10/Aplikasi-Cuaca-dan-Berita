@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Bantuan</title>
+        <link rel="icon" href="/img/weather-icon.png">
+       
+        <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/aos.css?ver=1.1.0" rel="stylesheet">
+    <link href="css/bootstrap.min.css?ver=1.1.0" rel="stylesheet">
+    <link href="css/main.css?ver=1.1.0" rel="stylesheet">
+    <noscript>
+      <style type="text/css">
+        [data-aos] {
+            opacity: 1 !important;
+            transform: translate(0) scale(1) !important;
+        }
+      </style>
+    </noscript>
+    <!-- Font Awesome -->
+<link
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+  rel="stylesheet"
+/>
+<!-- Google Fonts -->
+<link
+  href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+  rel="stylesheet"
+/>
+
+    </head>
+    <body>
+        <div class="main-content">
+            {{>header}}
+            <div class="list-group w-100">
+            <a href="#shortExampleAnswer1collapse" data-mdb-toggle="collapse" aria-expanded="false"
+                aria-controls="shortExampleAnswer1collapse" class="list-group-item list-group-item-action">
+                <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">Question 1</h5>
+                </div>
+                <p class="mb-1">
+                Halaman ini digunakan untuk apa,,?
+                </p>
+                <small><u>Learn more</u></small>
+                <!-- Collapsed content -->
+                <div class="collapse mt-3" id="shortExampleAnswer1collapse">
+                Pada halaman bantuan ini, kita menjelaskan mengenai suatu website yang kita buat yang mempunyai keterkaitan didalam satu halaman ke halaman lainnya. 
+                Pada Halaman Bantuan ini kita menjelaskan bagaimana fungsi website yang kita buat yaitu berkomunikasi, menyampaikan informasi dan mengetahui sebuah informasi yang sedang terjadi. 
+                Contohnya Dalam hal ini, website aplikasi cuaca dan berita digunakan untuk memberikan informasi terkini dan aktual tentang cuaca dan berita. 
+                Sedangkan website berita adalah platform yang menyediakan informasi terkini dan aktual.
+                </div>
+            </a>
+            <a href="#shortExampleAnswer2collapse" data-mdb-toggle="collapse" aria-expanded="false"
+                aria-controls="shortExampleAnswer1collapse" class="list-group-item list-group-item-action">
+                <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">Question 2</h5>
+                </div>
+                <p class="mb-1">
+                Apa itu API,,?
+                </p>
+                <small class="text-muted"><u>Learn more</u></small>
+                <!-- Collapsed content -->
+                <div class="collapse mt-3" id="shortExampleAnswer2collapse">
+                API stands for Application Programming Interface. Ini adalah seperangkat protokol, rutinitas, dan alat untuk membangun aplikasi perangkat lunak. 
+                API memungkinkan aplikasi perangkat lunak yang berbeda untuk berkomunikasi satu sama lain dan berbagi data. 
+                
+                </div>
+            </a>
+            <a href="#shortExampleAnswer3collapse" data-mdb-toggle="collapse" aria-expanded="false"
+                aria-controls="shortExampleAnswer1collapse" class="list-group-item list-group-item-action">
+                <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">Question 3</h5>
+                </div>
+                <p class="mb-1">
+                API apa yang digunakan dalam aplikasi ini,,?
+                </p>
+                <small class="text-muted"><u>Learn more</u></small>
+                <!-- Collapsed content -->
+                <div class="collapse mt-3" id="shortExampleAnswer3collapse">
+                Dalam konteks situs web yang menggunakan informasi tentang cuaca dan berita, API dari Mapbox dan Mediastack memungkinkan situs web mengakses alat dan layanan yang disediakan oleh platform ini secara terprogram. 
+                Misalnya, situs web dapat menggunakan Mapbox API untuk mengambil informasi tentang peta, navigasi, pencarian, dan akun, 
+                sedangkan Mediastack API dapat digunakan untuk mengambil artikel berita dan konten media lainnya. 
+                Dengan menggunakan API tersebut, website dapat memberikan informasi terkini dan akurat kepada penggunanya tanpa harus memperbarui data secara manual.
+                </div>
+            </a>
+            <a href="#shortExampleAnswer4collapse" data-mdb-toggle="collapse" aria-expanded="false"
+                aria-controls="shortExampleAnswer1collapse" class="list-group-item list-group-item-action">
+                <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">Question 4</h5>
+                </div>
+                <p class="mb-1">
+                Salah satu arsitektur API adalah(SOAP, RESTful, GraphQL, atau gRPC).
+                </p>
+                <small class="text-muted"><u>Learn more</u></small>
+                <!-- Collapsed content -->
+                <div class="collapse mt-4" id="shortExampleAnswer4collapse">
+                Website ini menggunakan RESTful API dari Mapbox untuk bagian infocuaca dan GraphQL API dari Mediastack untuk bagian berita. 
+                RESTful API digunakan untuk mengambil informasi tentang peta, navigasi, pencarian, dan akun, 
+                sedangkan GraphQL API digunakan untuk mengambil artikel berita dan konten media lainnya. 
+                RESTful API menggunakan permintaan HTTP untuk GET, POST, PUT, dan DELETE data, 
+                sedangkan GraphQL API menggunakan bahasa kueri untuk mengambil data. 
+                Kedua arsitektur API memiliki keunggulan dan kasus penggunaannya masing-masing, 
+                dan pilihan arsitektur API bergantung pada kebutuhan dan persyaratan spesifik situs web serta platform yang terintegrasi dengannya.
+                </div>
+            </a>
+            </div>
+        {{>footer}}
+    </body>
+    <script src="js/core/jquery.3.2.1.min.js?ver=1.1.0"></script>
+    <script src="js/core/popper.min.js?ver=1.1.0"></script>
+    <script src="js/core/bootstrap.min.js?ver=1.1.0"></script>
+    <script src="js/now-ui-kit.js?ver=1.1.0"></script>
+    <script src="js/aos.js?ver=1.1.0"></script>
+    <script src="scripts/main.js?ver=1.1.0"></script>
+    <script src="/public/js/mdb.min.js"></script>
+    <script src="/public/js/mdb.min.js.map"></script>
+    <!-- MDB -->
+<script
+  type="text/javascript" src="js/mdb.min.js"
+></script>
+</html>
